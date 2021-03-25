@@ -6,6 +6,11 @@
 	color: orange;
 }
 
+span {
+	float: right;
+	color: #404040;
+}
+
 .product-name:hover {
 	text-decoration: none;
 }
