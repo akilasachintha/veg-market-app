@@ -18,7 +18,7 @@ export default function ProductScreen(props) {
 	return (
 		<Container fluid>
 			<Link to="/">Back to result</Link>
-			<Row>
+			<Row className="shadow m-5">
 				<Col className="m-5" sm>
 					<Image className="p-4" src={product.image} style={{ Width: "450px" }} alt={product.name} fluid />
 				</Col>
